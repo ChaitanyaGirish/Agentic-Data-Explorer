@@ -3,10 +3,10 @@ An automated, agent-driven system built using LangChain, OpenAI, and Python to e
 The tool validates the dataset, prevents information leakage, rejects unsupported data types, performs automated EDA, and recommends machine-learning models — all in a human-friendly conversational format.
 
 ## Rejects datasets that contain:
-Time series columns
-Images/videos
-Date columns
-Text-heavy columns (based on threshold)
+(i) Time series columns
+(ii) Images/videos
+(iii) Date columns
+(iv) Text-heavy columns (based on threshold)
 
 Accepts only clean numeric and categorical data.
 
